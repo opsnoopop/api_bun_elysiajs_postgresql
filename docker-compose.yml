@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     image: oven/bun:1_alpine_custom
     container_name: container_bun
+    restart: always
     ports:
       - "3001:3000"
     depends_on:
@@ -19,7 +20,6 @@ services:
     image: postgres:17.5
     container_name: container_postgresql
     restart: always
-    shm_size: 128mb
     environment:
       POSTGRES_USER: testuser
       POSTGRES_PASSWORD: testpass
