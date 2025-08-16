@@ -9,7 +9,7 @@ A simple Bun Elysiajs API application and PostgreSQL, containerized with Docker.
 - OS Alpine Linux 3.20.6
 - Bun: 1.2.18
 - Elysiajs: 1.3.8 # bun create elysia app
-- pg: 8.16.3 # bun add elysia pg
+- postgres: 3.4.7 # bun add postgres
 
 **PostgreSQL Container: FROM postgres:17.5**
 - OS Debian GNU/Linux 12 (bookworm)
