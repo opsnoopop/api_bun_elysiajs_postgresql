@@ -34,7 +34,7 @@ const app = new Elysia()
   })
 
   // health route
-  .get('/', () => ({ message: 'Hello World from Bun' }))
+  .get('/', () => ({ message: 'Hello World from Bun (ElysiaJS + PostgreSQL)' }))
 
   // POST /users -> create user
   .post(
